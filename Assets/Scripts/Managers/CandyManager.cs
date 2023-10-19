@@ -46,27 +46,27 @@ public class CandyManager : MonoBehaviour
             switch (candyChance)
             {
                 case >= 1 and <= 40:
-                    Instantiate(candy1, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(candy1, new Vector3(Random.Range(-9f, 9f), 8, 0), Quaternion.identity);
                     break;
 
                 case >= 41 and <= 65:
-                    Instantiate(candy2, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(candy2, new Vector3(Random.Range(-9f, 9f), 8, 0), Quaternion.identity);
                     break;
 
                 case >= 66 and <= 80:
-                    Instantiate(candy3, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(candy3, new Vector3(Random.Range(-9f, 9f), 8, 0), Quaternion.identity);
                     break;
 
                 case >= 81 and <= 90:
-                    Instantiate(candy4, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(candy4, new Vector3(Random.Range(-9f, 9f), 8, 0), Quaternion.identity);
                     break;
 
                 case >= 91 and <= 97:
-                    Instantiate(candy5, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(candy5, new Vector3(Random.Range(-9f, 9f), 8, 0), Quaternion.identity);
                     break;
 
                 case >= 98 and <= 100:
-                    Instantiate(candy6, new Vector3(0, 0, 0), Quaternion.identity);
+                    Instantiate(candy6, new Vector3(Random.Range(-9f, 9f), 8, 0), Quaternion.identity);
                     break;
             }
 
